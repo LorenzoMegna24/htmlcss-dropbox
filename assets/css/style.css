@@ -14,6 +14,9 @@ body{
 .space-between{
   justify-content: space-between;
 }
+.justify-center{
+  justify-content: center;
+}
 .align-items-center{
   align-items: center;
 }
@@ -33,13 +36,35 @@ body{
   margin: 0 auto;
   width: 60%;
 }
+.col-70{
+  margin: 0 auto;
+  width: 70%;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
 .pt-30{
   padding-top: 30px;
 }
-/* head */
+.w-100{
+  width: 100%;
+}
+.txt-center{
+  text-align: center;
+}
+/* header */
 /* nav */
 nav{
-  border: solid 2px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 2px 5px lightgray;
 }
 nav a {
   text-decoration: none;
@@ -62,13 +87,14 @@ nav img{
 /* banner */
 .banner-header{
   background-color: #b4d0e7;
+  margin-top: 40px;
 }
 .banner-container{
   top: 50px;
 }
 h1{
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 900;
 }
 .left-banner{
   flex-basis: 30%;
@@ -89,5 +115,66 @@ h1{
 }
 
 /* main */
+main{
+  margin-top: 100px;
+}
+/* section 1 */
+.section-1 h2{
+  font-size: 35px;
+}
+.section-1 h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.select-fatturazione span{
+  margin-right: 50px;
+}
+.selezione i{
+  color: rgb(0,97,255);
+}
+.non-selezione i{
+  color: lightgray;
+}
+.sub-container{
+  margin-top: 30px;
+}
+.sub-container ul li{
+  list-style-type: none;
+  margin-top: 15px;
+  font-size: 13px;
+}
+.indice{
+  border: solid 1px lightgray;
+  padding: 10px 0;
+}
+.content-card{
+  border-bottom: solid 1px lightgray;
+  border-left: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+}
+.content-card{
+  padding: 30px 20px;
+}
+.content-card hr{
+  width: 20%;
+}
+.prezzo{
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.piano{
+  color: gray;
+}
+.fa-check{
+  color: rgb(0,97,255);
+}
+.team-sub{
+  margin: 0 40px;
+}
+.team-sub,
+.singolo-sub,
+.azienda-sub{
+  flex-basis: calc(100% / 3);
+}
 
 /* footer */
