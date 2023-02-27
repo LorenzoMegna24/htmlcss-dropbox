@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 /* utility */
 .flex{
   display: flex;
@@ -14,6 +17,9 @@
 .align-items-center{
   align-items: center;
 }
+.relative{
+  position: relative;
+}
 .blue-btn{
   display: inline-block;
   background-color: rgb(0,97,255);
@@ -21,8 +27,17 @@
 }
 .blue-btn a{
   color: white;
+  text-decoration: none;
+}
+.col-60{
+  margin: 0 auto;
+  width: 60%;
+}
+.pt-30{
+  padding-top: 30px;
 }
 /* head */
+/* nav */
 nav{
   border: solid 2px black;
 }
@@ -37,8 +52,40 @@ nav ul li {
 nav img, nav ul{
   display: inline-block;
 }
+nav img{
+  height: 20px;
+  margin-right: 10px;
+}
 .left-nav, .right-nav{
   margin: 20px 10px;
+}
+/* banner */
+.banner-header{
+  background-color: #b4d0e7;
+}
+.banner-container{
+  top: 50px;
+}
+h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+.left-banner{
+  flex-basis: 30%;
+}
+.right-banner{
+  flex-basis: 70%;
+}
+.right-banner img{
+  width: 100%;
+}
+.left-banner p, 
+.left-banner span,
+.left-banner div{
+  margin-bottom: 30px;
+}
+.arrow a {
+  text-decoration: none;
 }
 
 /* main */
