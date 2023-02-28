@@ -26,6 +26,9 @@ body{
 .align-items-center{
   align-items: center;
 }
+.wrap{
+  flex-wrap: wrap;
+}
 .relative{
   position: relative;
 }
@@ -68,6 +71,9 @@ body{
 .mt-50{
   margin-top: 50px;
 }
+.mt-30{
+  margin-top: 30px;
+}
 .pt-30{
   padding-top: 30px;
 }
@@ -80,6 +86,14 @@ body{
 .w-70{
   width: 70%;
 }
+h2{
+  font-size: 35px;
+}
+h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
 
 
 
@@ -163,13 +177,6 @@ main{
 }
 
 /* section 1 */
-.section-1 h2{
-  font-size: 35px;
-}
-.section-1 h3{
-  font-size: 25px;
-  margin-bottom: 20px;
-}
 .select-fatturazione span{
   margin-right: 50px;
 }
@@ -240,5 +247,10 @@ main{
   flex-basis: 40%;
   padding-left: 30px;
 }
-
+.card-db-business{
+  flex-basis: calc(100% / 3 - 5%);
+}
+.card-db-business img{
+  width: 100%;
+}
 /* footer */
