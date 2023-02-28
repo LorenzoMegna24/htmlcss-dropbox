@@ -7,6 +7,9 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+
+
 /* utility */
 .flex{
   display: flex;
@@ -55,7 +58,13 @@ body{
 .txt-center{
   text-align: center;
 }
+
+
+
+
+
 /* header */
+
 /* nav */
 nav{
   position: fixed;
@@ -87,6 +96,8 @@ nav img{
 .left-nav, .right-nav{
   margin: 20px 10px;
 }
+
+
 /* banner */
 .banner-header{
   background-color: #b4d0e7;
@@ -122,10 +133,14 @@ h1{
   color: black;
 }
 
+
+
+
 /* main */
 main{
   margin-top: 100px;
 }
+
 /* section 1 */
 .section-1 h2{
   font-size: 35px;
@@ -151,6 +166,10 @@ main{
   list-style-type: none;
   margin-top: 15px;
   font-size: 13px;
+  display: flex;
+}
+.sub-container ul li i{
+  margin-right: 5px;
 }
 .indice{
   border-bottom: solid 1px lightgray;
@@ -185,5 +204,8 @@ main{
 .azienda-sub{
   flex-basis: calc(100% / 3);
 }
+
+
+
 
 /* footer */
