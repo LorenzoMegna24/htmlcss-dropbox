@@ -69,6 +69,9 @@ nav{
 nav a {
   text-decoration: none;
 }
+nav ul li a {
+  color: black;
+}
 nav ul li {
   list-style-type: none;
   display: inline-block;
@@ -110,8 +113,13 @@ h1{
 .left-banner div{
   margin-bottom: 30px;
 }
+.arrow{
+  margin-top: 55px;
+}
 .arrow a {
   text-decoration: none;
+  font-size: 40px;
+  color: black;
 }
 
 /* main */
