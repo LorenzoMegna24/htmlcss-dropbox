@@ -65,8 +65,8 @@ body{
 .mb-50{
   margin-bottom: 50px;
 }
-.mb-80{
-  margin-bottom: 80px;
+.mb-100{
+  margin-bottom: 100px;
 }
 .mt-50{
   margin-top: 50px;
@@ -93,8 +93,33 @@ h3{
   font-size: 25px;
   margin-bottom: 20px;
 }
-
-
+.h-50per{
+  height: 50%;
+}
+.bg-green{
+  background-color: rgb(162,211,155);
+}
+.bg-brown{
+  background-color: rgb(97,8,43);
+}
+.bg-lblue{
+  background-color: rgb(0,147,206);
+}
+.bg-firered{
+  background-color: rgb(255,28,28);
+}
+.bg-red{
+  background-color: rgb(213,0,31);
+}
+.bg-sky{
+  background-color: rgb(180,208,231);
+}
+.bg-blue{
+  background-color: rgb(13,36,129);
+}
+.bg-yellow{
+  background-color: rgb(255,216,48);
+}
 
 
 
@@ -247,10 +272,53 @@ main{
   flex-basis: 40%;
   padding-left: 30px;
 }
+
+/* section 2 */
 .card-db-business{
   flex-basis: calc(100% / 3 - 5%);
 }
 .card-db-business img{
   width: 100%;
+}
+
+/* section 3 */
+.card-partner-left{
+  flex-basis: calc(100% / 2);
+  padding: 70px;
+}
+.partner-left,
+.partner-right{
+  flex-basis: 50%;
+}
+.partner-mid{
+  padding: 50px 30px;
+  flex-basis: 50%;
+  background-color: rgb(239, 238, 238);
+}
+.partner-mid hr{
+  width: 20%;
+}
+.card-partner-right{
+  flex-basis: calc(100% / 2);
+  padding: 60px;
+}
+.card-partner-left img,
+.card-partner-right img{
+  width: 100%;
+  filter: invert(100%);
+}
+.porta-db{
+  padding: 100px 0;
+}
+.left-porta-db{
+  flex-basis: 60%;
+  color: #60072a;
+}
+.right-porta-db{
+  flex-basis: 40%;
+  margin-left: 10%;
+}
+.right-porta-db .white-btn{
+  border: none;
 }
 /* footer */
