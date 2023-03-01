@@ -51,6 +51,10 @@ body{
   color: white;
   text-decoration: none;
 }
+.white-btn:hover,
+.blue-btn:hover{
+  opacity: 0.5;
+}
 .col-60{
   margin: 0 auto;
   width: 60%;
@@ -144,17 +148,23 @@ nav ul li a {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 0 10px;
+  padding: 20px 10px;
+}
+nav ul li:hover,
+nav .box-logo:hover{
+  border-bottom: solid 5px  black;
 }
 nav img, nav ul{
   display: inline-block;
 }
-nav img{
-  height: 20px;
-  margin-right: 10px;
+nav .box-logo{
+  padding: 20px 10px;
 }
 .left-nav, .right-nav{
-  margin: 20px 10px;
+  margin: 0 10px;
+}
+nav .blue-btn{
+  margin-left: 10px;
 }
 
 
@@ -284,7 +294,6 @@ main{
 /* section 3 */
 .card-partner-left{
   flex-basis: calc(100% / 2);
-  padding: 70px;
 }
 .partner-left,
 .partner-right,
@@ -295,17 +304,20 @@ main{
 .partner-mid{
   padding: 50px 30px;
   background-color: rgb(239, 238, 238);
+  overflow: auto;
+}
+.partner-mid img{
+  width: 50%;
 }
 .partner-mid hr{
   width: 20%;
 }
 .card-partner-right{
   flex-basis: calc(100% / 2);
-  padding: 60px;
 }
 .card-partner-left img,
 .card-partner-right img{
-  width: 100%;
+  width: 50%;
   filter: invert(100%);
 }
 .partner-left .active{
