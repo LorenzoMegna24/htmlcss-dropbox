@@ -325,4 +325,36 @@ main{
 .right-porta-db .white-btn{
   border: none;
 }
+
+
+/* section 4 */
+.domande-frequenti ol {
+  list-style: none;
+  margin: 0;
+}
+.domande-frequenti .domanda{
+  margin: 30px 0;
+}
+.box-domanda .box-risposta{
+  display: none;
+  margin-bottom: 30px;
+  color: rgb(126, 126, 126);
+  width: 80%;
+}
+.box-domanda:hover i{
+  animation: dropdown forwards;
+  animation-duration: 0s;
+}
+@keyframes dropdown{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+.box-domanda:hover .box-risposta{
+  display: block;
+}
+
 /* footer */
