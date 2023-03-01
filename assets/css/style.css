@@ -359,3 +359,37 @@ main{
 
 
 /* footer */
+footer{
+  background-color: black;
+  color: white;
+}
+.footer-box ul li{
+  list-style-type: none;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+.footer-box ul li a{
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+}
+.footer-box{
+  flex-basis: calc(100% / 5 - 10%);
+}
+.footer-box h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+footer hr{
+  width: 10%;
+}
+.lingua{
+  padding-bottom: 30px;
+  color: rgb(209, 209, 209);
+}
+.lingua>i{
+  margin-right: 10px;
+}
+.lingua span{
+  margin-right: 10px;
+
+}
